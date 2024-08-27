@@ -1,0 +1,19 @@
+.card-body {
+   display: inline-block;
+   border: 1px solid black;
+   width: 300px;
+ }
+ 
+ .img-container img {
+   background-color: black;
+    max-width: 300px;
+    height: auto;
+ }
+ 
+ .p {
+    margin: 5px;
+ }
+
+.h1 {
+   margin: 5px;
+ }

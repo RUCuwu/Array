@@ -1,0 +1,16 @@
+/* Style table H1 header */
+h1 {
+    text-align: center;
+}
+
+/* Style the table element */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+/* Style the td and th element */
+td, th {
+    border: 1px solid green;
+}

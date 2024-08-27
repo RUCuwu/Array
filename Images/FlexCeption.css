@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+
+.text {
+    color: white;
+    position: absolute;
+    justify-content: center;
+    font-size: xxx-large;
+    font-weight: 900;
+}
+
+.box-large {
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+    width: 150px;
+    height: 150px;
+}
+
+.box-medium {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30px;
+    height: 30px;
+}

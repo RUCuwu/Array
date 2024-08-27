@@ -1,0 +1,92 @@
+body{
+    background-color: brown;
+}
+
+.boxes {
+    border: 1px solid white;
+    height: 200px;
+    width: 200px;
+}
+
+#box1{
+    background-color: aliceblue;
+    transition-property: background-color;
+    transition-duration: 300ms;
+}
+
+#box1:hover{
+    background-color: orangered;
+    cursor: pointer;
+}
+
+#box2{
+    font-size: 50px;
+    transition-property: font-size;
+    transition-duration: 300ms;
+}
+
+#box2:hover{
+    font-size: 30px;
+}
+
+#box3{
+    transition-property: width, height;
+    transition-duration: 2s;
+}
+
+#box3:hover{
+    width: 100px;
+    height: 100px;
+}
+
+#box4{
+    background-color: hotpink;
+    transition-duration: 3s;
+}
+
+#box4:hover{
+    transform: translateX(300px);
+}
+
+#box5{
+    background-color: darkorchid;
+    transition-duration: 3s;
+}
+
+#box5:hover{
+    transform: rotate(360deg) ;
+}
+
+#box6{
+    background-color: seagreen;
+    transition-duration: 3s;
+    font-size: 50px;
+    
+}
+
+#box6:hover{
+    background-color: khaki;
+    border-color: black;   
+    transform: rotate(360deg);
+    font-size: 70px;
+    color: rgb(30, 102, 197);
+}
+
+@media only screen and (orientation: landscape) {
+    body{
+        background-color: lightblue;
+    }
+}
+
+@media only screen and (orientation: portriat) {
+    body{
+        background-color: mediumaquamarine;
+    }
+}
+
+@media only screen and (omin-width: 600px) {
+    body{
+        background-color:fuchsia;
+
+    }
+}

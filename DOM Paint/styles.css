@@ -1,0 +1,54 @@
+#draw {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 70px;
+    background-color: black;
+    /* outline: 2px solid black;  */
+}
+div {
+    height: 100px;
+    width: 100px;
+}
+
+h1 {
+    background: lightcoral;
+    background: -webkit-linear-gradient(to right, green, yellow, white);
+    background: linear-gradient(to right, lightcoral, black, blue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow:hidden;
+    color: white;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+}
+
+#draw * {
+    margin-bottom: 6px;
+}
+
+#draw label {
+    font-size: 12px;
+}
+
+#draw input {
+    width: 100%;
+}
+
+#draw button {
+    background-color: aqua;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 2px;
+}
